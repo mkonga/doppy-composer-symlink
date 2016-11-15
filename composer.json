@@ -1,0 +1,31 @@
+{
+    "name"       : "doppy/composer-symlink",
+    "description": "Create symlinks using composer",
+    "keywords"   : [
+        "symlink management"
+    ],
+    "homepage"   : "https://bitbucket.org/doppy/composer-symlink",
+    "license"    : "MIT",
+    "authors"    : [
+        {
+            "name" : "Daan van den Berg",
+            "email": "zawadi@doppy.nl"
+        }
+    ],
+    "require"    : {
+        "php"         : ">=5.6.0"
+    },
+    "require-dev": {
+        "composer/composer": "1.0.*@dev"
+    },
+    "autoload"   : {
+        "psr-4": {
+            "Doppy\\ComposerSymlink\\": ""
+        }
+    },
+    "extra"      : {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
