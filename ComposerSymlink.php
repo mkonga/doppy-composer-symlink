@@ -23,7 +23,7 @@ class ComposerSymlink
         self::$io = $event->getIO();
 
         if (!isset($extras['doppy-composer-symlink'])) {
-            throw new \InvalidArgumentException('The parameter handler needs to be configured through the extra.doppy-composer-symlink setting.');
+            throw new \InvalidArgumentException('The Symlink handler needs to be configured through the extra.doppy-composer-symlink setting.');
         }
 
         $configuredSymlinks = $extras['doppy-composer-symlink'];

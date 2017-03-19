@@ -49,5 +49,3 @@ It wil create missing symlinks and update existing (if the target has changed).
 * Do not commit the symlinks in your repository.
 * Add the symlinks to your .gitignore
 * Do not create symlinks outside your application dir.
-
-
