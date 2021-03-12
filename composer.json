@@ -1,6 +1,7 @@
 {
     "name"       : "doppy/composer-symlink",
     "description": "Create symlinks using composer",
+    "abandoned"  : true,
     "keywords"   : [
         "symlink management"
     ],
